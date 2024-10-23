@@ -2,12 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>简单页面</title>
+    <title>UWED</title>
+	
+	<style type="text/css">    
+	.tit{
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		font-size:30px;
+		font-family:"MicroSofr YaHei",sans-serif;
+		font-weight:bold;
+
+	}
+	.jz{
+		display:flex;
+	}
+	.pic{
+		margin:auto;
+		width:25%;"
+	}
+	.lblfont{
+		font-size:20px;
+		font-family:"黑体",sans-serif;
+		font-weight:bold;
+	}
+	
+	#info{
+		background:white;
+		width:100%;
+	}
+	
+	.infot{
+		font-size:20px;
+		font-family:'MicroSoft YaHei',sans-serif;
+	}
+	
+	</style>
+	
+
+</script>
+
+
 </head>
-<body>
-    <h1>Welcome to  Github from here!</h1>
+<body  >
+
+
+	
+	<div   id="ppp" >
+	
+    <div class="tit">超声波焊接机</div>
+	
+	<br/>
+	<br/>
+	
+	
+	
+	
+	<div name="lbl" onclick="shower(this)" class="lblfont">设备图片</div>
+	<div  id="csh" name="info" >
+	<div name="lbl"class="jz"><img   src="imgs/eq_cs.png" class="pic" onclick="shower()"></div>
+	</div>
+	
+	
+	
+	<br/>
+	<br/>
+
+	<div name="lbl" onclick="shower(this)" class="lblfont">生产制造商</div>
+	<div  id="csh" name="info" >
+	<br/>
+	<div class="infot">国内制造商</div>
+	<div  class="jz"><img src="" class="pic"></div>
+	</div>
+	
+	
+	<br/>
+	<br/>
+	
+	
+	<div  name="lbl" onclick="shower(this)" class="lblfont">原理介绍</div>
+	<div id="yli" name="info" >
+	<br/>
+	<div   class="infot">将电能转为高频振动波传递到焊接物体表面，通过能量转换产生热能使表面熔化，进入保压阶段焊缝冷却并固化。</div>
+	<div  class="jz"><img id="gif" src=""  class="pic"></div>
+	</div>
 
 </body>
-
-
+<script type="text/javascript" src="index.js">	
+</script>
 </html>
